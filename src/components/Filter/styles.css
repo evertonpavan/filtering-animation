@@ -1,0 +1,51 @@
+.filter-container {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 24rem;
+    max-width: 100%;
+    padding: 0.5rem 1rem;
+    border: none;
+    font-weight: bold;
+    gap: 1rem;
+    height: 2rem;
+    align-content: center;
+    /* background: red;
+    border: 2px solid rgb(28, 36, 53);
+    border-radius: 1rem; */
+}
+
+.filter-container p {
+    max-width: 100%;
+    text-align: start;
+    font-weight: bold;
+}
+
+.filter-container select{
+    min-width: 16rem;
+    max-width: 24rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: white;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(28, 36, 53);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.filter-container button{
+    height: 2rem;
+    margin-right: 2rem;
+    min-width: 8rem;
+    max-width: 16rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: blue;
+    color: white;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(28, 36, 53);
+    font-weight: bold;
+    cursor: pointer;
+}
+
